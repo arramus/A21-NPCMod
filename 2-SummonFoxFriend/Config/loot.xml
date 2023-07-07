@@ -1,0 +1,8 @@
+<configs>
+
+	<!-- Safes for Quest Notes -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupSafeBooks']"> <!-- groupSafeBooks for gun and wall/desk -->
+		<item name="noteqc_2-SummonFoxFriend"/>
+	</append>
+	
+</configs>
