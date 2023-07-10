@@ -1,0 +1,18 @@
+<configs>
+
+	<append xpath="/items">
+	
+		<item name="noteqc_1-SummonFriendZ">
+			<property name="Extends" value="challengeQuestMaster"/>
+			<property name="DescriptionKey" value="noteqc_1-SummonFriendZDesc"/>
+			<property name="CustomIcon" value="FriendZ"/>
+			<property name="EconomicValue" value="800"/>
+			<property class="Action0">
+				<property name="UseAnimation" value="false"/>
+				<property name="QuestGiven" value="challenge_1-SummonFriendZ"/>
+			</property>
+		</item>
+		
+	</append>
+	
+</configs>

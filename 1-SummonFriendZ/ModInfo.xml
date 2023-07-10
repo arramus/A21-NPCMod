@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <Name value="1-SummonFriendZ" />
+	<Author value="arramus" />
+    <Description value="Summon FriendZ Pack using TFP zombies as helpers that can be found or bought" />
+	<DisplayName value="1-SummonFriendZ" />
+    <Website value="https://community.7daystodie.com/topic/26974-npcmod-a-community-project/" />
+    <Version value="21.0.1.0" />
+</xml>

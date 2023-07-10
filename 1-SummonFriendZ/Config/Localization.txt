@@ -1,0 +1,12 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+npcTomClarkDPistol,entityclasses,Entity,,,Desert Eagle Tom,,,,,,,,,,,,,
+npcDemolitionDaveM60,entityclasses,Entity,,,M60 Dave,,,,,,,,,,,,,
+npcMommaAK47,entityclasses,Entity,,,AK47 Momma,,,,,,,,,,,,,
+npcTFPSoldierTRifle,entityclasses,Entity,,,Gutsy T.A. Rifle Soldier,,,,,,,,,,,,,
+npcArleneSMG,entityclasses,Entity,,,SMG Arlene,,,,,,,,,,,,,
+npcBikerMagnumDPistol,entityclasses,Entity,,,Magnum Biker,,,,,,,,,,,,,
+npcBoeSRifle,entityclasses,Entity,,,Sniper Boe,,,,,,,,,,,,,
+npcMoeAShotgun,entityclasses,Entity,,,Auto Moe,,,,,,,,,,,,,
+noteqc_1-SummonFriendZ,items,item,,,Summon - FriendZ,,,,,,,,,,,,,
+noteqc_1-SummonFriendZDesc,items,item,,,"This quest allows a player to summon a random FriendZ and also receive 100 meat to hire the new companion. There are 8 in total - Desert Eagle Tom, M60 Dave, AK47 Momma, Gutsy T.A. Rifle Soldier, SMG Arlene, Magnum Biker, Sniper Boe, and Auto Moe.",,,,,,,,,,,,,

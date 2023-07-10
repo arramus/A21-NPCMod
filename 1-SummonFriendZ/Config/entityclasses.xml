@@ -1,0 +1,238 @@
+<configs>
+
+	<append xpath="/entity_classes">
+
+		<!-- Tom Clark Desert Eagle -->
+		
+		<entity_class name="npcTomClarkDPistol" extends="npcAdvancedDPistolTemplate">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="UMA2,entity,male,npc,ranged"/>
+			<property name="Faction" value="whiteriver"/>
+            <property name="LookAtAngle" value="0"/> 
+			<property name="Names" value="Tom Clark" />			
+			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZTomClark.prefab"/>
+			<property name="PhysicsBody" value="zombieStandard"/>			
+			<property name="HireCurrency" value="foodRawMeat" />
+			<property name="HireCost" value="100" />
+			
+			<property name="SoundRandomTime" value="30.0"/> <!-- It will play the roam every 60/30 seconds -->
+			<property name="SoundRandom" value="Enemies/Base_Zombie_Male/zombiemaleroam"/>
+			<property name="SoundAlertTime" value="25.0"/> <!-- It will play the roam every 25/12.5 seconds-->
+			<property name="SoundAlert" value="Enemies/Base_Zombie_Male/zombiemalealert"/>
+			<property name="SoundSense" value="Enemies/Base_Zombie_Male/zombiemalesense"/>
+			<property name="SoundHurt" value="Enemies/Base_Zombie_Male/zombiemalepain"/>
+			<property name="SoundDeath" value="Enemies/Base_Zombie_Male/zombiemaledeath"/>
+			<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
+	
+            <effect_group name="Base Effects">
+			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="npcTomClarkDPistolDeco"/>			
+		        <passive_effect name="HealthMax" operation="base_set" value="300"/>
+		        <passive_effect name="PhysicalDamageResist" operation="base_set" value="40"/>
+	        </effect_group>
+		</entity_class>
+		
+		<!-- Demolition Dave - M60 -->
+		
+		<entity_class name="npcDemolitionDaveM60" extends="npcAdvancedAK47Template">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="UMA2,entity,male,npc,ranged"/>
+			<property name="Faction" value="whiteriver"/>
+            <property name="LookAtAngle" value="0"/> 
+			<property name="Names" value="Demolition Dave" />				
+			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZDemolition.prefab"/> 
+			<property name="PhysicsBody" value="zombieStandard"/>			
+			<property name="HireCurrency" value="foodRawMeat" />
+			<property name="HireCost" value="100" />
+			
+			<property name="SoundRandomTime" value="30.0"/> <!-- It will play the roam every 60/30 seconds -->
+			<property name="SoundRandom" value="demolitionzroam"/>
+			<property name="SoundAlert" value="demolitionzalert"/>
+			<property name="SoundAttack" value="demolitionzattack"/>
+			<property name="SoundHurt" value="demolitionzpain"/>
+			<property name="SoundDeath" value="demolitionzdeath"/>
+			<property name="SoundSense" value="demolitionzsense"/>
+			<property name="SoundFootstepModifier" value="bear_footstep"/>
+			
+			<effect_group name="Base Effects">
+			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="npcDemolitionDaveM60Deco"/>
+		        <passive_effect name="HealthMax" operation="base_set" value="300"/>
+		        <passive_effect name="PhysicalDamageResist" operation="base_set" value="40"/>
+	        </effect_group>
+		</entity_class>
+		
+		<!-- Momma - AK47 -->
+		
+		<entity_class name="npcMommaAK47" extends="npcAdvancedAK47Template">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="UMA2,entity,male,npc,ranged"/>
+			<property name="Faction" value="whiteriver"/>
+            <property name="LookAtAngle" value="0"/> 
+			<property name="Names" value="Momma" />				
+			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBigMama.prefab"/>
+			<property name="PhysicsBody" value="zombieStandard"/>
+			<property name="HireCurrency" value="foodRawMeat" />
+			<property name="HireCost" value="100" />
+
+			<property name="SoundRandomTime" value="30.0"/> <!-- It will play the roam every 60/30 seconds -->			
+			<property name="SoundRandom" value="Enemies/Base_Zombie_Female2/zombiefemale2roam"/>
+			<property name="SoundAlert" value="Enemies/Base_Zombie_Female2/zombiefemale2alert"/>
+			<property name="SoundAttack" value="Enemies/Base_Zombie_Female2/zombiefemale2attack"/>
+			<property name="SoundHurt" value="Enemies/Base_Zombie_Female2/zombiefemale2pain"/>
+			<property name="SoundDeath" value="Enemies/Base_Zombie_Female2/zombiefemale2death"/>
+			<property name="SoundSense" value="Enemies/Base_Zombie_Female2/zombiefemale2sense"/>
+			<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>            
+			
+			<effect_group name="Base Effects">
+			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="npcMommaAK47Deco"/>
+		        <passive_effect name="HealthMax" operation="base_set" value="300"/>
+		        <passive_effect name="PhysicalDamageResist" operation="base_set" value="40"/>
+	        </effect_group>
+		</entity_class>
+		
+		<!-- Gutsy Soldier - Tactical Assault Rifle -->
+		
+        <entity_class name="npcTFPSoldierTRifle" extends="npcAdvancedTRifleTemplate">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="UMA2,entity,male,npc,ranged"/>
+			<property name="Faction" value="whiteriver"/>
+            <property name="LookAtAngle" value="0"/> 
+			<property name="Names" value="Gutsy" />
+			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZSoldier.prefab"/>
+			<property name="PhysicsBody" value="zombieStandard"/>
+			<property name="HireCurrency" value="foodRawMeat" />
+			<property name="HireCost" value="100" />
+
+			<property name="SoundRandomTime" value="30.0"/> <!-- It will play the roam every 60/30 seconds -->
+			<property name="SoundRandom" value="Enemies/Base_Zombie_Male2/zombiemale2roam"/>
+			<property name="SoundAlert" value="Enemies/Base_Zombie_Male2/zombiemale2alert"/>
+			<property name="SoundAttack" value="Enemies/Base_Zombie_Male2/zombiemale2attack"/>
+			<property name="SoundHurt" value="Enemies/Base_Zombie_Male2/zombiemale2pain"/>
+			<property name="SoundDeath" value="Enemies/Base_Zombie_Male2/zombiemale2death"/>
+			<property name="SoundSense" value="Enemies/Base_Zombie_Male2/zombiemale2sense"/>                
+				
+			<effect_group name="Base Effects">
+			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="npcTFPSoldierTRifleDeco"/>
+		        <passive_effect name="HealthMax" operation="base_set" value="300"/>
+		        <passive_effect name="PhysicalDamageResist" operation="base_set" value="40"/>
+	        </effect_group>
+		</entity_class>
+		
+		<!-- Arlene - SMG -->
+		
+	        <entity_class name="npcArleneSMG" extends="npcAdvancedSMGTemplate">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="UMA2,entity,male,npc,ranged"/>
+			<property name="Faction" value="whiteriver"/>
+            <property name="LookAtAngle" value="0"/> 
+			<property name="Names" value="Arlene" />				
+			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZArlene.prefab"/>
+			<property name="PhysicsBody" value="zombieStandard"/>
+			<property name="HireCurrency" value="foodRawMeat" />
+			<property name="HireCost" value="100" />
+			
+			<property name="SoundRandomTime" value="30.0"/> <!-- It will play the roam every 60/30 seconds -->
+			<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+			<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+			<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+			<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+			<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+			<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
+			
+            <effect_group name="Base Effects">
+			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="npcArleneSMGDeco"/>
+		        <passive_effect name="HealthMax" operation="base_set" value="300"/>
+		        <passive_effect name="PhysicalDamageResist" operation="base_set" value="40"/>
+	        </effect_group>
+		</entity_class>
+		
+		<!-- Biker Magnum DPistol -->
+		
+		<entity_class name="npcBikerMagnumDPistol" extends="npcAdvancedDPistolTemplate">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="UMA2,entity,male,npc,ranged"/>
+			<property name="SizeScale" value="1.08"/>
+			<property name="Faction" value="whiteriver"/>
+            <property name="LookAtAngle" value="0"/> 
+			<property name="Names" value="Biker Dude" />			
+			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBiker.prefab"/>
+			<property name="PhysicsBody" value="zombieStandard"/>
+			<property name="HireCurrency" value="foodRawMeat" />
+			<property name="HireCost" value="100" />
+			
+			<property name="SoundRandomTime" value="30.0"/> <!-- It will play the roam every 60/30 seconds -->
+			<property name="SoundRandom" value="Enemies/Base_Zombie_Male/zombiemaleroam"/>
+			<property name="SoundAlertTime" value="25.0"/> <!-- It will play the roam every 25/12.5 seconds-->
+			<property name="SoundAlert" value="Enemies/Base_Zombie_Male/zombiemalealert"/>
+			<property name="SoundSense" value="Enemies/Base_Zombie_Male/zombiemalesense"/>
+			<property name="SoundHurt" value="Enemies/Base_Zombie_Male/zombiemalepain"/>
+			<property name="SoundDeath" value="Enemies/Base_Zombie_Male/zombiemaledeath"/>
+			<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
+	
+            <effect_group name="Base Effects">
+			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="npcBikerMagnumDPistolDeco"/>			
+		        <passive_effect name="HealthMax" operation="base_set" value="300"/>
+		        <passive_effect name="PhysicalDamageResist" operation="base_set" value="40"/>
+	        </effect_group>
+		</entity_class>
+		
+		<!-- Boe Sniper -->
+		
+		<entity_class name="npcBoeSRifle" extends="npcAdvancedSRifleTemplate">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="UMA2,entity,male,npc,ranged"/>
+			<property name="SizeScale" value="1.08"/>
+			<property name="Faction" value="whiteriver"/>
+            <property name="LookAtAngle" value="0"/> 
+			<property name="Names" value="Boe Bandy" />			
+			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZBoe.prefab"/>
+			<property name="PhysicsBody" value="zombieStandard"/>
+			<property name="HireCurrency" value="foodRawMeat" />
+			<property name="HireCost" value="100" />
+			
+			<property name="SoundRandomTime" value="30.0"/> <!-- It will play the roam every 60/30 seconds -->
+			<property name="SoundRandom" value="Enemies/Base_Zombie_Male2/zombiemale2roam"/>
+			<property name="SoundAlert" value="Enemies/Base_Zombie_Male2/zombiemale2alert"/>
+			<property name="SoundAttack" value="Enemies/Base_Zombie_Male2/zombiemale2attack"/>
+			<property name="SoundHurt" value="Enemies/Base_Zombie_Male2/zombiemale2pain"/>
+			<property name="SoundDeath" value="Enemies/Base_Zombie_Male2/zombiemale2death"/>
+			<property name="SoundSense" value="Enemies/Base_Zombie_Male2/zombiemale2sense"/>
+	
+            <effect_group name="Base Effects">
+			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="npcBoeSRifleDeco"/>			
+		        <passive_effect name="HealthMax" operation="base_set" value="300"/>
+		        <passive_effect name="PhysicalDamageResist" operation="base_set" value="40"/>
+	        </effect_group>
+		</entity_class>
+		
+		<!-- Moe Pump Shotgun -->
+		
+		<entity_class name="npcMoeAShotgun" extends="npcAdvancedAShotgunTemplate">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="UMA2,entity,male,npc,ranged"/>
+			<property name="SizeScale" value="1.08"/>
+			<property name="Faction" value="whiteriver"/>
+            <property name="LookAtAngle" value="0"/> 
+			<property name="Names" value="Moe" />			
+			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZMoe.prefab"/>
+			<property name="PhysicsBody" value="zombieStandard"/>
+			<property name="HireCurrency" value="foodRawMeat" />
+			<property name="HireCost" value="100" />
+			
+			<property name="SoundRandomTime" value="30.0"/> <!-- It will play the roam every 60/30 seconds -->
+			<property name="SoundRandom" value="Enemies/Base_Zombie_Male2/zombiemale2roam"/>
+			<property name="SoundAlert" value="Enemies/Base_Zombie_Male2/zombiemale2alert"/>
+			<property name="SoundAttack" value="Enemies/Base_Zombie_Male2/zombiemale2attack"/>
+			<property name="SoundHurt" value="Enemies/Base_Zombie_Male2/zombiemale2pain"/>
+			<property name="SoundDeath" value="Enemies/Base_Zombie_Male2/zombiemale2death"/>
+			<property name="SoundSense" value="Enemies/Base_Zombie_Male2/zombiemale2sense"/>
+	
+            <effect_group name="Base Effects">
+			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="npcMoeAShotgunDeco"/>			
+		        <passive_effect name="HealthMax" operation="base_set" value="300"/>
+		        <passive_effect name="PhysicalDamageResist" operation="base_set" value="40"/>
+	        </effect_group>
+		</entity_class>
+
+	</append>	
+	
+</configs>

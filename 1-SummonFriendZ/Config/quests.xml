@@ -1,0 +1,24 @@
+<configs>
+
+ 	<append xpath="/quests">
+	
+		<quest id="challenge_1-SummonFriendZ">
+			<property name="offer_key" value="Accept this quest to take responsibility of a random FriendZ. Move to an open area to allow a FriendZ to be summoned. Feed 100 meat to hire. There are 8 in total - Desert Eagle Tom, M60 Dave, AK47 Momma, Gutsy T.A. Rifle Soldier, SMG Arlene, Magnum Biker, Sniper Boe, and Auto Moe."/>
+			<property name="name_key" value="Summon - FriendZ"/>
+			<property name="subtitle_key" value="Summon - FriendZ"/>
+			<property name="description_key" value="Move to an open area to allow a random FriendZ to be summoned."/>
+			<property name="icon" value="ui_game_symbol_zombie"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="challenge"/>
+			<property name="difficulty" value="easy"/>
+			<property name="difficulty_tier" value="1"/>
+			<property name="login_rally_reset" value="true"/>
+				
+		<reward type="Exp" value="1500"/>
+		<action type="SpawnEnemy" id="npcTomClarkDPistol,npcDemolitionDaveM60,npcMommaAK47,npcTFPSoldierTRifle,npcArleneSMG,npcBikerMagnumDPistol,npcBoeSRifle,npcMoeAShotgun" value="1"/>
+		<reward type="Item" id="foodRawMeat" value="250"/>		
+		</quest>		
+	
+	</append>
+	
+</configs>

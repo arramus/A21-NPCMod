@@ -1,0 +1,57 @@
+<configs>
+
+    <append xpath="/entitygroups/entitygroup[@name='ZombiesAll']">
+	    <entity name="npcTomClarkDPistol" prob="0.1" />
+        <entity name="npcDemolitionDaveM60" prob="0.1" />
+		<entity name="npcMommaAK47" prob="0.1" />
+		<entity name="npcTFPSoldierTRifle" prob="0.1" />
+		<entity name="npcArleneSMG" prob="0.1" />	
+		<entity name="npcBikerMagnumDPistol" prob="0.1" />
+		<entity name="npcBoeSRifle" prob="0.1" />
+		<entity name="npcMoeAShotgun" prob="0.1" />
+	</append>
+
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesNight']">
+	    <entity name="npcTomClarkDPistol" prob="0.025" />	
+		<entity name="npcDemolitionDaveM60" prob="0.025" />
+		<entity name="npcMommaAK47" prob="0.025" />
+		<entity name="npcTFPSoldierTRifle" prob="0.025" />
+		<entity name="npcArleneSMG" prob="0.025" />	
+		<entity name="npcBikerMagnumDPistol" prob="0.025" />
+		<entity name="npcBoeSRifle" prob="0.025" />
+		<entity name="npcMoeAShotgun" prob="0.025" />	
+	</append>
+
+	<append xpath="/entitygroups/entitygroup[@name='SnowZombies']">
+	    <entity name="npcTomClarkDPistol" prob="0.05" />
+        <entity name="npcDemolitionDaveM60" prob="0.05" />
+		<entity name="npcMommaAK47" prob="0.05" />
+		<entity name="npcTFPSoldierTRifle" prob="0.05" />
+		<entity name="npcArleneSMG" prob="0.05" />	
+		<entity name="npcBikerMagnumDPistol" prob="0.05" />
+		<entity name="npcBoeSRifle" prob="0.05" />
+		<entity name="npcMoeAShotgun" prob="0.05" />
+	</append>	
+
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']">
+	    <entity name="npcTomClarkDPistol" prob="0.1" />
+        <entity name="npcDemolitionDaveM60" prob="0.1" />
+		<entity name="npcMommaAK47" prob="0.1" />
+		<entity name="npcTFPSoldierTRifle" prob="0.1" />
+		<entity name="npcArleneSMG" prob="0.1" />	
+		<entity name="npcBikerMagnumDPistol" prob="0.1" />
+		<entity name="npcBoeSRifle" prob="0.1" />
+		<entity name="npcMoeAShotgun" prob="0.1" />	
+	</append>
+
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']">
+	    <entity name="npcTomClarkDPistol" prob="0.1" />
+        <entity name="npcDemolitionDaveM60" prob="0.1" />
+		<entity name="npcMommaAK47" prob="0.1" />
+		<entity name="npcTFPSoldierTRifle" prob="0.1" />
+		<entity name="npcArleneSMG" prob="0.1" />	
+		<entity name="npcBikerMagnumDPistol" prob="0.1" />
+		<entity name="npcBoeSRifle" prob="0.1" />
+		<entity name="npcMoeAShotgun" prob="0.1" />
+	</append>
+</configs>
