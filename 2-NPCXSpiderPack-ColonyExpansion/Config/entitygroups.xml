@@ -58,6 +58,60 @@
 	
 	<!-- Colony Expansion Additions to XNPCCore Sleeper Volume Groups -->
 	
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/text()" delim="\n" op="add" >
+		animalSpider01Mini, 6
+		animalSpider02Mini, 6
+		animalSpider03Mini, 6
+		animalSpider01, 4
+		animalSpider02, 4
+		animalSpider03, 4
+		animalSpider01Feral, 3
+		animalSpider02Feral, 3
+		animalSpider03Feral, 3
+		animalSpider01Radiated, 2
+		animalSpider02Radiated, 2
+		animalSpider03Radiated, 2
+		animalSpider01Queen, .75
+		animalSpider02Queen, .75
+		animalSpider03Queen, .75
+	</csv>
+
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsForest']/text()" delim="\n" op="add" >
+		animalSpider01Mini, 6
+		animalSpider02Mini, 6
+		animalSpider03Mini, 6
+		animalSpider01, 4
+		animalSpider02, 4
+		animalSpider03, 4
+		animalSpider01Feral, 3
+		animalSpider02Feral, 3
+		animalSpider03Feral, 3
+		animalSpider01Radiated, 2
+		animalSpider02Radiated, 2
+		animalSpider03Radiated, 2
+		animalSpider01Queen, .75
+		animalSpider02Queen, .75
+		animalSpider03Queen, .75
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForest']/text()" delim="\n" op="add" >
+		animalSpider01Mini, 6
+		animalSpider02Mini, 6
+		animalSpider03Mini, 6
+		animalSpider01, 4
+		animalSpider02, 4
+		animalSpider03, 4
+		animalSpider01Feral, 3
+		animalSpider02Feral, 3
+		animalSpider03Feral, 3
+		animalSpider01Radiated, 2
+		animalSpider02Radiated, 2
+		animalSpider03Radiated, 2
+		animalSpider01Queen, .75
+		animalSpider02Queen, .75
+		animalSpider03Queen, .75
+	</csv>
+	
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']/text()" delim="\n" op="add" >
 		animalSpider01Mini, 6
 		animalSpider02Mini, 6
