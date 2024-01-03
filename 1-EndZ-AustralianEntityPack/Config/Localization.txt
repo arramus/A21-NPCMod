@@ -1,0 +1,9 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+
+0AnimalCassowary,entityclasses,Entity,,,Cassowary
+0Animaltassydevil,entityclasses,Entity,,,Tasmanian Devil
+0AnimalPlatypus,entityclasses,Entity,,,Platypus
+0Animalkoala,entityclasses,Entity,,,Koala
+0Animalfrillneck,entityclasses,Entity,,,"Frilled-Neck Lizard"
+0Animalkangaroo,entityclasses,Entity,,,"Kangaroo"
+0animalmagpie,entityclasses,Entity,,,"Magpie"

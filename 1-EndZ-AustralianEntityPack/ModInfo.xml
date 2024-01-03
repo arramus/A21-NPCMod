@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>		
+		<Name value="1_EndZ_AustralianEntityPack" />
+		<DisplayName value="Australian Entity Pack" />
+		<Description value="Adds Australian animal entities. Dependent on the NPC Mod (0-Score and 0-XNPCCore)." />
+		<Author value="May Red and TheeLegion" />
+		<Version value="21.2.0.1" />		
+</xml>

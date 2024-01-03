@@ -1,0 +1,35 @@
+<Configs>
+
+<!-- *** INTEGRATION FOR ANIMALS -->
+
+<!-- *** BIOME_ENEMY_ANIMAL_DESERT_GROUP -->
+
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']/text()" delim="\n" op="add" >
+		0AnimalCassowary, 30
+		0Animaltassydevil, 30
+		0AnimalPlatypus, 30
+		0Animalkoala, 30
+		0Animalfrillneck, 30
+		0Animalkangaroo, 40
+		0animalmagpie, 40
+	</csv>
+	
+<!-- *** SNOW ANIMALS -->
+	
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/text()" delim="\n" op="add" >
+		0animalmagpie, 15
+	</csv>
+	
+<!-- *** BIOME_ANIMAL_WILD_GAME_FOREST_GROUP -->
+
+	<csv xpath="/entitygroups/entitygroup[@name='WildGameForest']/text()" delim="\n" op="add" >
+		0animalmagpie, 18
+	</csv>
+	
+<!-- *** BIOME_ENEMY_ANIMAL_BURNT_FOREST_GROUP -->
+	
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsForest']/text()" delim="\n" op="add" >
+		0animalmagpie, 30
+	</csv>
+
+</Configs>
